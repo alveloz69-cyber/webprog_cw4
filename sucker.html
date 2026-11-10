@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Buy Your Way to a Better Education up in Here!</title>
+		<link href="buyagrade.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1>Buy Your Way to a Better Education up in Here!</h1>
+
+		<p>
+			Life itself is your professor, and you are in a state of constant learning, now there are 3 kinds of people in the world: people that can count and people that can't count. Which of the three are you?.  That's right!  All you need to get a 4.0 in this course. My education is about learning what you didn't know even if know you that didn't know. <br><br>
+
+			'Do you need homework today I think so however the moment I forget to assign you homework there will be a scholar student to utter loudly 'We have homework...'
+		</p>
+
+		<hr>
+
+		<form action="sucker.php" method="post">
+			<p>
+				<label for="student-name">Name (fictional)</label>
+				<input id="student-name" name="name" type="text" required autocomplete="off">
+			</p>
+
+			<p>
+				<label for="section">Section</label>
+				<select id="section" name="section" required>
+					<option value="">Select a section</option>
+					<option value="MA">MA</option>
+					<option value="MB">MB</option>
+					<option value="MC">MC</option>
+					<option value="MD">MD</option>
+					<option value="ME">ME</option>
+					<option value="MF">MF</option>
+					<option value="MG">MG</option>
+					<option value="MH">MH</option>
+				</select>
+			</p>
+
+			<p>
+				<label for="cardnumber">Practice card number (16 digits)</label>
+				<input id="cardnumber" name="cardnumber" type="text" inputmode="numeric"
+				       pattern="[0-9]{16}" maxlength="16" required autocomplete="off"
+				       title="Exactly 16 digits, for example 1234123412341234">
+			</p>
+
+			<fieldset>
+				<legend>Card type (practice only)</legend>
+				<label><input type="radio" name="cardtype" value="visa" required> Visa</label>
+				<label><input type="radio" name="cardtype" value="mastercard"> Mastercard</label>
+			</fieldset>
+
+			<p><button type="submit">Submit practice data</button></p>
+		</form>
+
+		<div>
+			I am a giant sucker.
+		</div>
+	</body>
+</html>
